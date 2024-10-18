@@ -1,0 +1,52 @@
+#score {
+    text-align: center;
+}
+    
+
+#game {
+    width: 600px;
+    height: 300px;
+    border: 2px solid black;
+    margin: auto;
+    background-image: url("https://as1.ftcdn.net/v2/jpg/01/43/76/48/1000_F_143764898_t4pSGP3gfdMAC0Olsr1YBiS1Y2sWdZzN.jpg");
+    background-size: cover;
+}
+
+#dino {
+    height: 75px;
+    width: 75px;
+    position: relative;
+    top: 225px;
+    background-image: url("https://cdn.gamedevmarket.net/wp-content/uploads/20201215050713/7b08bfd7815a20b0f815f680b9bf1742.gif");
+    background-size: cover;
+   
+}
+
+#rock {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 175px;
+    left: 550px;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/019/527/056/small_2x/an-8-bit-retro-styled-pixel-art-illustration-of-a-stone-rock-free-png.png");
+    background-size: cover;
+    animation: rock 1.33s infinite;
+    
+}
+
+@keyframes rock {
+    0%{left: 550px;}
+    100%{left: -50px;}
+}
+
+
+.jump-animation {
+    animation: jump 0.5s;
+}
+
+@keyframes jump {
+    0%{top: 225px;}
+    50%{top: 75px}
+    75%{top: 75px}
+    100%{top: 225px;}
+}
