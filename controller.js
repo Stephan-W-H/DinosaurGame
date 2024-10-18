@@ -25,7 +25,7 @@ setInterval(() => {
 
 
     if (rockLeft < 50 && rockLeft > 0 && dinoTop > 150) {
-        alert ("Du fikk score:" + score.innerText + "Prøv igjen");
+        alert ("Du fikk score:" + score.innerText + ' ' + "Prøv igjen");
     }
         
 }, 50);
